@@ -2,7 +2,7 @@
 """
 Created on Sat Mar  2 12:38:17 2019
 
-@author: abhijeet
+@author: nikitha gudipati
 """
 
 # Importing the libraries
@@ -33,3 +33,4 @@ print(regressor.score(X, y))
 # Saving model
 
 joblib.dump(regressor, 'model.sav')
+
